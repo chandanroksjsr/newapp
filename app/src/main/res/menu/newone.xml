@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/adu"
+            android:title="Add User" />
+        <item
+            android:id="@+id/nav_campus_news"
+            android:icon="@drawable/de"
+            android:title="Delete User" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/upload"
+            android:title="Upload IMEI" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/upload"
+            android:title="Upload Phone" />
+        <item
+            android:id="@+id/nav_univ_news"
+            android:icon="@drawable/upload"
+            android:title="Upload Random" />
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="?attr/colorButtonNormal"
+    tools:context="hashbird.com.newapp.new_patient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:gravity="center"
+            android:text="ADD NEW PATIENT"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="PERSONAL DETAILS"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu"
+                android:hint="NAME"
+                android:inputType="textPersonName"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu"
+                android:hint="EMAIL"
+                android:inputType="textPersonName"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu"
+                android:hint="PHONE"
+                android:inputType="phone"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu"
+                android:hint="DOB"
+                android:inputType="date"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="MEDICAL DETAILS"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/diab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="DIABETES"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+            <Switch
+                android:id="@+id/bp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="BP"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+            <Switch
+                android:id="@+id/hr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="HEART ISSUE"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/ep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="EPILEPSY"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+            <Switch
+                android:id="@+id/tb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TB"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+            <Switch
+                android:id="@+id/di"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="DISABLED"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/offline"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="SAVE OFFLINE"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/online"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@android:color/holo_green_light"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="SAVE TO SERVER"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/enct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SearchResultsActivity">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/adu"
+        android:title="Clear All"
+        app:showAsAction="always"/>
+    <!--<item-->
+        <!--android:id="@+id/action_search"-->
+        <!--android:icon="@android:drawable/ic_menu_search"-->
+        <!--android:title="Search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/upload"
+        android:title="Add"
+        android:titleCondensed="@string/app_name"
+        app:showAsAction="always"
+      />
+    <item
+        android:id="@+id/clear"
+        android:icon="@drawable/de"
+        android:title="Clear All"
+        app:showAsAction="always"/>
+</menu>
